@@ -1,7 +1,7 @@
 pipeline{
   agent any 
   tools {
-    maven "maven3.6.0"
+    maven 
   }  
   stages {
     stage('1GetCode'){
